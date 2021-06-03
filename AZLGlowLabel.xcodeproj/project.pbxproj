@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CD09BC62666149A005D98AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09BC52666149A005D98AB /* AppDelegate.swift */; };
+		8CD09BC82666149A005D98AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09BC72666149A005D98AB /* SceneDelegate.swift */; };
+		8CD09BCA2666149A005D98AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09BC92666149A005D98AB /* ViewController.swift */; };
+		8CD09BCD2666149A005D98AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD09BCB2666149A005D98AB /* Main.storyboard */; };
+		8CD09BCF2666149D005D98AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD09BCE2666149D005D98AB /* Assets.xcassets */; };
+		8CD09BD22666149D005D98AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD09BD02666149D005D98AB /* LaunchScreen.storyboard */; };
+		8CD09BDD266614CF005D98AB /* AZLGlowLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09BDC266614CF005D98AB /* AZLGlowLabel.swift */; };
+		8CD09C9C26662832005D98AB /* NeonOne.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8CD09C9B26662832005D98AB /* NeonOne.otf */; };
+		8CD09CA326663EFE005D98AB /* ALDebugThemePickColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09CA026663EFE005D98AB /* ALDebugThemePickColorViewController.m */; };
+		8CD09CA426663EFE005D98AB /* ALDebugThemePickColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD09CA126663EFE005D98AB /* ALDebugThemePickColorViewController.xib */; };
+		8CD09CA8266640DF005D98AB /* ALFontSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09CA6266640DF005D98AB /* ALFontSettingViewController.swift */; };
+		8CD09CA9266640DF005D98AB /* ALFontSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD09CA7266640DF005D98AB /* ALFontSettingViewController.xib */; };
+		8CFC03AB26676A26008AEEEE /* ALTextEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC03A926676A26008AEEEE /* ALTextEditViewController.swift */; };
+		8CFC03AC26676A26008AEEEE /* ALTextEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CFC03AA26676A26008AEEEE /* ALTextEditViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CD09BC22666149A005D98AB /* AZLGlowLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZLGlowLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD09BC52666149A005D98AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CD09BC72666149A005D98AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8CD09BC92666149A005D98AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CD09BCC2666149A005D98AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CD09BCE2666149D005D98AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CD09BD12666149D005D98AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CD09BD32666149D005D98AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD09BDC266614CF005D98AB /* AZLGlowLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZLGlowLabel.swift; sourceTree = "<group>"; };
+		8CD09C9B26662832005D98AB /* NeonOne.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NeonOne.otf; sourceTree = "<group>"; };
+		8CD09C9F26663EFD005D98AB /* AZLGlowLabel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZLGlowLabel-Bridging-Header.h"; sourceTree = "<group>"; };
+		8CD09CA026663EFE005D98AB /* ALDebugThemePickColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDebugThemePickColorViewController.m; sourceTree = "<group>"; };
+		8CD09CA126663EFE005D98AB /* ALDebugThemePickColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALDebugThemePickColorViewController.xib; sourceTree = "<group>"; };
+		8CD09CA226663EFE005D98AB /* ALDebugThemePickColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDebugThemePickColorViewController.h; sourceTree = "<group>"; };
+		8CD09CA6266640DF005D98AB /* ALFontSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALFontSettingViewController.swift; sourceTree = "<group>"; };
+		8CD09CA7266640DF005D98AB /* ALFontSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ALFontSettingViewController.xib; sourceTree = "<group>"; };
+		8CFC03A926676A26008AEEEE /* ALTextEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALTextEditViewController.swift; sourceTree = "<group>"; };
+		8CFC03AA26676A26008AEEEE /* ALTextEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ALTextEditViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CD09BBF2666149A005D98AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CD09BB92666149A005D98AB = {
+			isa = PBXGroup;
+			children = (
+				8CD09BC42666149A005D98AB /* AZLGlowLabel */,
+				8CD09BC32666149A005D98AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD09BC32666149A005D98AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD09BC22666149A005D98AB /* AZLGlowLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CD09BC42666149A005D98AB /* AZLGlowLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8CD09BDA266614A4005D98AB /* View */,
+				8CD09BC52666149A005D98AB /* AppDelegate.swift */,
+				8CD09BC72666149A005D98AB /* SceneDelegate.swift */,
+				8CD09BC92666149A005D98AB /* ViewController.swift */,
+				8CD09C9E26663EEC005D98AB /* Tool */,
+				8CD09BCB2666149A005D98AB /* Main.storyboard */,
+				8CD09BCE2666149D005D98AB /* Assets.xcassets */,
+				8CD09BD02666149D005D98AB /* LaunchScreen.storyboard */,
+				8CD09BD32666149D005D98AB /* Info.plist */,
+				8CD09C9B26662832005D98AB /* NeonOne.otf */,
+			);
+			path = AZLGlowLabel;
+			sourceTree = "<group>";
+		};
+		8CD09BDA266614A4005D98AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8CD09BDC266614CF005D98AB /* AZLGlowLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8CD09C9E26663EEC005D98AB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				8CD09CA226663EFE005D98AB /* ALDebugThemePickColorViewController.h */,
+				8CD09CA026663EFE005D98AB /* ALDebugThemePickColorViewController.m */,
+				8CD09CA126663EFE005D98AB /* ALDebugThemePickColorViewController.xib */,
+				8CD09C9F26663EFD005D98AB /* AZLGlowLabel-Bridging-Header.h */,
+				8CD09CA6266640DF005D98AB /* ALFontSettingViewController.swift */,
+				8CD09CA7266640DF005D98AB /* ALFontSettingViewController.xib */,
+				8CFC03A926676A26008AEEEE /* ALTextEditViewController.swift */,
+				8CFC03AA26676A26008AEEEE /* ALTextEditViewController.xib */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CD09BC12666149A005D98AB /* AZLGlowLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD09BD62666149D005D98AB /* Build configuration list for PBXNativeTarget "AZLGlowLabel" */;
+			buildPhases = (
+				8CD09BBE2666149A005D98AB /* Sources */,
+				8CD09BBF2666149A005D98AB /* Frameworks */,
+				8CD09BC02666149A005D98AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZLGlowLabel;
+			productName = AZLGlowLabel;
+			productReference = 8CD09BC22666149A005D98AB /* AZLGlowLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CD09BBA2666149A005D98AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					8CD09BC12666149A005D98AB = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+					};
+				};
+			};
+			buildConfigurationList = 8CD09BBD2666149A005D98AB /* Build configuration list for PBXProject "AZLGlowLabel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CD09BB92666149A005D98AB;
+			productRefGroup = 8CD09BC32666149A005D98AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD09BC12666149A005D98AB /* AZLGlowLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CD09BC02666149A005D98AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD09C9C26662832005D98AB /* NeonOne.otf in Resources */,
+				8CD09BD22666149D005D98AB /* LaunchScreen.storyboard in Resources */,
+				8CD09CA426663EFE005D98AB /* ALDebugThemePickColorViewController.xib in Resources */,
+				8CFC03AC26676A26008AEEEE /* ALTextEditViewController.xib in Resources */,
+				8CD09CA9266640DF005D98AB /* ALFontSettingViewController.xib in Resources */,
+				8CD09BCF2666149D005D98AB /* Assets.xcassets in Resources */,
+				8CD09BCD2666149A005D98AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CD09BBE2666149A005D98AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD09CA326663EFE005D98AB /* ALDebugThemePickColorViewController.m in Sources */,
+				8CD09BCA2666149A005D98AB /* ViewController.swift in Sources */,
+				8CD09BDD266614CF005D98AB /* AZLGlowLabel.swift in Sources */,
+				8CD09CA8266640DF005D98AB /* ALFontSettingViewController.swift in Sources */,
+				8CFC03AB26676A26008AEEEE /* ALTextEditViewController.swift in Sources */,
+				8CD09BC62666149A005D98AB /* AppDelegate.swift in Sources */,
+				8CD09BC82666149A005D98AB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CD09BCB2666149A005D98AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD09BCC2666149A005D98AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CD09BD02666149D005D98AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD09BD12666149D005D98AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CD09BD42666149D005D98AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CD09BD52666149D005D98AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CD09BD72666149D005D98AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N64Q9SP7U;
+				INFOPLIST_FILE = AZLGlowLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azl.AZLGlowLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AZLGlowLabel/Tool/AZLGlowLabel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CD09BD82666149D005D98AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N64Q9SP7U;
+				INFOPLIST_FILE = AZLGlowLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azl.AZLGlowLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AZLGlowLabel/Tool/AZLGlowLabel-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CD09BBD2666149A005D98AB /* Build configuration list for PBXProject "AZLGlowLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD09BD42666149D005D98AB /* Debug */,
+				8CD09BD52666149D005D98AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD09BD62666149D005D98AB /* Build configuration list for PBXNativeTarget "AZLGlowLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD09BD72666149D005D98AB /* Debug */,
+				8CD09BD82666149D005D98AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CD09BBA2666149A005D98AB /* Project object */;
+}
