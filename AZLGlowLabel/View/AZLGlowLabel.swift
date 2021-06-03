@@ -51,9 +51,6 @@ public class AZLGlowLabel: UILabel {
         super.draw(rect)
         let ctx = UIGraphicsGetCurrentContext()
         
-        //UIGraphicsBeginImageContextWithOptions(rect.size, false, UIScreen.main.scale)
-        
-        
         UIGraphicsBeginImageContextWithOptions(rect.size, false, UIScreen.main.scale)
         ctx?.setTextDrawingMode(.fill)
         self.textColor = self.settingModel.textFillColor

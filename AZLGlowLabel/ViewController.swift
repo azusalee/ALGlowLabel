@@ -29,19 +29,9 @@ class ViewController: UIViewController {
         }
         
         let glowLabel = AZLGlowLabel.init(frame: CGRect.init(origin: CGPoint.init(x: 50, y: 50), size: CGSize.init(width: 300, height: 300)))
-//        for name in UIFont.familyNames {
-//            print(name)
-//        }
-        
-        //glowLabel.font = UIFont.init(name: "Neon One", size: 60)
-        //glowLabel.font = UIFont.boldSystemFont(ofSize: 60)
+
         glowLabel.numberOfLines = 0
         glowLabel.text = "xixi hahabapiuyow?"
-        //glowLabel.textColor = UIColor.green
-//        glowLabel.glowSize = 20
-//        glowLabel.glowColor = UIColor.green
-        //glowLabel.innerGlowSize = 4
-        //glowLabel.innerGlowColor = UIColor.white
         self.glowLabel = glowLabel
         
         self.view.addSubview(glowLabel)
